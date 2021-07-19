@@ -1,0 +1,39 @@
+.col-xs-12 {
+    text-align: center;
+    width: 100%;
+}
+
+form {
+    display: inline-block;
+    width: 20%;
+}
+
+.invalid {
+    border: solid red 1px;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.error-msg {
+    text-align: left;
+    color: red;
+    font-size: small;
+}
+
+button {
+    float: right;
+}
+
+.txtRight {
+    text-align: right;
+}
+
+.Label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+}

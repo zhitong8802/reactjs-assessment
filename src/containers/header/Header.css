@@ -1,0 +1,10 @@
+a:not([href]) {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:not([href]):hover {
+    color: #0358b4;
+    text-decoration: underline;
+}

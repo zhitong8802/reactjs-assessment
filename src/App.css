@@ -1,0 +1,16 @@
+.row {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+::ng-deep .breadcrumb {
+  color: black;
+  background-color: white;
+  margin-bottom: 0px;
+}
+
+.content {
+  margin-left: 200px;
+}

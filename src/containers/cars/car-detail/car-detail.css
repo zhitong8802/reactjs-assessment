@@ -1,0 +1,49 @@
+.carlist {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carlist thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.carlist th, .carlist td {
+    padding: 12px 15px;
+}
+
+.carlist tbody tr {
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+.carlist tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.carlist tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.variance {
+    background-color: #009879;
+    color: #ffffff;
+}
+
+.col-xs-12 {
+    text-align: center;
+    width: 100%;
+}
+
+.btn-back {
+    text-align: right;
+    margin-left: 61%;
+}
